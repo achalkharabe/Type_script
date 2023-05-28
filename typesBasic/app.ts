@@ -3,7 +3,8 @@ console.log("hii");
 const fun1=()=>{
 const a:number=12;
 let b:number=3;
- const add=a+(b.toString());
+ const add:string=a+(b.toString())
+
  const sub=a-b;
  const multy=a*b;
  const dev=a/b;
@@ -23,3 +24,4 @@ return c;
 }
 const returnfun=fun2();
 console.log("returnfun",returnfun);
+
